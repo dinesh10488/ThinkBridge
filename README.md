@@ -6,3 +6,4 @@ Save the file as .Java file
 Download and save the dependencies Jar files
 Download and save chrome.exe in to the project
 Add Jar files to the project
+Run the Java file , using Ran as Java file
