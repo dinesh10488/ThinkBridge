@@ -1,0 +1,30 @@
+import org.openqa.selenium.By;  
+import org.openqa.selenium.JavascriptExecutor;  
+import org.openqa.selenium.WebDriver;  
+import org.openqa.selenium.chrome.ChromeDriver; 
+import org.openqa.selenium.support.ui.select; 
+public class NewBrowser{  
+    public static void main(String[] args) {    
+        System.setProperty("webdriver.chrome.driver", "C:\\ChromeDriver\\chromedriver.exe");     
+        WebDriver driver=new ChromeDriver();
+	driver.navigate().to("L http://jt-dev.azurewebsites.net/#/SignUp");
+	driver.manage().window().maximize(); 
+	String Values[] =["English,"Dutch"]
+	driver.findElement(By.xpath("//a[contains(@data-ng-click,'Reports')]"))
+Select select =new Select(driver.findelement(By.xpath("//*[@id='language']/div[1]/span")).click();
+List<WebElement> dropvalues =select.getoptions();
+for (int i=0;i<dropvalues.size();i++)
+{
+Assert.assertEquals[Values[i].dropvalues.get(i).getText();
+System.out.println("Validate drop down Success");
+driver.findElement(By.id("//*[@id='name']").sendKeys("dinesh");
+driver.findElement(By.id("//*[@id='orgName']").sendKeys("dinesh");
+driver.findElement(By.id("//*[@id='singUpEmail']").sendKeys("dinesh10488@gmail.com");
+driver.findelement(By.xpath("//*[@id='content']//div[4]/label")).click();
+driver.findelement(By.xpath("//*[@id='content']//button")).click();
+String message =["A welcome email has been sent. Please check your email."]
+String Actual =driver.findelement(By.xpath("//*[@id='content']//form/div/span").getText();
+if (Actual.equals(message))
+{
+System.out.println("Success Message Verfied");
+}
