@@ -1,0 +1,15 @@
+Test Case completeness of Frontend requirements
+1.	To test whether the new component is added in the top for adding the inventory.
+2.	To test whether name, description and price is displayed after clicking the field new.
+3.	To test whether the upload button is displayed for adding the document 
+4.	To test whether the allowed document types like JPEG , PNG are accepting in upload option.
+5.	To test name and price of uploaded items is displayed.
+6.	To test the thumbnail image is displayed properly as per the picture resolution.
+7.	To test whether the item can be removed from the inventory using delete button.
+8.	To test whether the item is opened separately in a new page with the information like name , description , price and photo .
+9.	To test whether the API calls should be asynchronous
+10.	To verify whether pages loaded correctly in horizontal and vertical.
+11.	To verify all the data can be passed as an API , using the post man tool will be more efficient to test these API’s.
+12.	To test whether the items are added successfully in the SQL data base
+13.	To test whether the data’s are retrieved properly from the data base , using the sql commands.
+14 .Identifying the Automation test cases like adding the new item , removing the new item , fetching the new items from the inventory.
