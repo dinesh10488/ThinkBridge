@@ -1,0 +1,39 @@
+Feedback/Improvements
+Functionality – Permanent – Applicant Details
+1.	To Check all the Mandatory fields under applicant details accepted with valid inputs
+2.	To Check the Warning message for the mandatory fields like mobile , email ,name , if invalid data is entered.
+3.	To check whether the field is navigated using the tab key function.
+    Power Supply Address
+1 . To check whether the mandatory fields is entered successfully in Power Supply address with different types of premises, category and preferred  language
+2. To check whether the different form is opened when the user selects No in Whether power supply address is same as billing address 
+3.To check whether all the mandatory fields is entered successfully in the Whether power supply address is same as billing address  form.
+Connection details
+1.To check whether the supply voltage and purpose of supply is selected successfully from the drop down , and to apply equal partition technique while selecting the purpose of supply  
+2.To check whether fees are calculated automatically on entering the values in Total Load and hit on tab button
+3. To check the power purchase agreement is displayed when the Load is greater than 50 KW (Since you are applying for load of 50 kW or above, please note that you will be required to accept the online power purchase agreement before proceeding further. The necessary link to view/download this agreement is provided below.)
+4.To check whether the document is downloaded when the user hits on download button.
+Payment Details 
+1.To check Full payment and Partial payment options are working as expected.
+Upload Required Documents
+1.To Verify that the documents with file size not exceed 20 KB is accepted successfully under Upload Required Documents 
+2.To Verify that the documents for all the fields are uploaded after hitting the corresponding buttons (upload photo , etc)
+3. To Verify that the OTP is received in the mobile number which entered in the applicant details
+4.To Verify that the submit button enabled after acknowledging the Terms and condition.
+5. To verify the registration is successful and application displayed with success message.
+Usability 
+The main objective of the usability testing is to discover the areas of confusion in the application , and from my observation , I think the below areas can be improved.
+Applicant Details 
+1.	Test report number – There is no proper definition of this field , end user will not aware whats needs to be filled in this , even its not mandatory the field definition should be enclosed with it.
+2.	Near by reference consumer no – How the end user will get the reference number ? and why its mandatory ? . this will mislead the new consumer.
+Power Supply address
+1.	Instead of drop down ,Area and road name can be as text box because there will be a chance of area and road name not updated periodically  in the drop down , if we use address finder also always there is a chance of area and road name not updated periodically.
+2.	OTP is not generating to the mobile number , which can be fixed to check the registration.
+3.	No option in Whether power supply address is same as billing address is written  as N0 , it should be NO
+4.	The look and feel of the URL can be improved and the application can be more user friendly.
+
+UI Aesthetics
+It’s easy to estimate if the visual appeal is an important factor in the first place — and to what extent.
+Aligning the team’s vision and developing common understanding
+End customers provide us with nuanced feedback on how they perceive the design and the organization
+Ask participants to solve a cognitive task after using the design
+Desirability test to be carried out.
